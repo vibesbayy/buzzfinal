@@ -1,0 +1,38 @@
+name: buzz
+description: "Buzz Telkomsel."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dropdown_button2: ^2.3.9
+  flutter_local_notifications: ^19.1.0
+  permission_handler: ^12.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background.png
+    - assets/logo.png
+    - assets/avatar.jpg
+
+flutter_launcher_icons:
+  version: ^0.13.1
+  dev: true
+    
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
