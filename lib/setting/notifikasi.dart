@@ -13,10 +13,7 @@ class _NotificationSettingsPageState extends State<NotificationSettings> {
   bool vibrate = true;
 
   bool appUpdates = false;
-  bool billReminder = true;
   bool promotion = true;
-  bool discountAvailable = false;
-  bool paymentRequest = false;
 
   bool newServiceAvailable = false;
   bool newTipsAvailable = true;
@@ -80,14 +77,8 @@ class _NotificationSettingsPageState extends State<NotificationSettings> {
               buildSectionTitle("System & services update"),
               buildSwitchTile("App updates", appUpdates,
                   (value) => setState(() => appUpdates = value)),
-              buildSwitchTile("Bill Reminder", billReminder,
-                  (value) => setState(() => billReminder = value)),
               buildSwitchTile("Promotion", promotion,
                   (value) => setState(() => promotion = value)),
-              buildSwitchTile("Discount Available", discountAvailable,
-                  (value) => setState(() => discountAvailable = value)),
-              buildSwitchTile("Payment Request", paymentRequest,
-                  (value) => setState(() => paymentRequest = value)),
               const Divider(height: 32),
               buildSectionTitle("Others"),
               buildSwitchTile("New Service Available", newServiceAvailable,

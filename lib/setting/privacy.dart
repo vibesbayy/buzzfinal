@@ -59,20 +59,20 @@ class _PrivacyPolicyState extends State<PrivacyPolicy> {
                 ),
                 const SizedBox(height: 16),
                 buildSection(
-                  "1. Types data we collect",
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n"
-                      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+                  "1. Types of Data We Collect",
+                  "We may collect various types of personal information, including but not limited to your name, email address, contact information, usage data, and preferences.\n\n"
+                      "We may also collect technical data such as your IP address, browser type, device information, and activity logs when you interact with our app.",
                 ),
                 buildSection(
-                  "2. Use of your personal data",
-                  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.\n\n"
-                      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+                  "2. Use of Your Personal Data",
+                  "Your personal data is used to provide and improve our services, personalize your experience, communicate with you, and ensure the security of our platform.\n\n"
+                      "We may also use the data for analytics purposes to enhance app performance and understand user behavior.",
                 ),
                 buildSection(
-                  "3. Disclosure of your personal data",
-                  "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.\n\n"
-                      "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.\n\n"
-                      "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus",
+                  "3. Disclosure of Your Personal Data",
+                  "We do not sell or share your personal information with third parties without your consent, except as required by law or to protect our rights.\n\n"
+                      "In some cases, we may work with trusted service providers who assist us in delivering our services. These parties are contractually obligated to protect your data.\n\n"
+                      "We take all reasonable steps to ensure your data remains secure and is not accessed or disclosed without authorization.",
                 ),
               ],
             ),
